@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
+
+/*import google font*/
+
+
+
+.topnav {
+      overflow: hidden;
+      background-color: #333;               }
+/*create background color for navigation*/
+
+.topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+/*create navigation font size and color*/
+
+.topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+/**/
+
+.topnav a.active {
+          background-color: green;
+          color: white;
+    }
+/*creat color for current link*/
+
+
+.footer-align{
+    text-align: center;
+}
+/*align text center in footer section*/
+
+.homepage {
+
+    background-image: url(../house-images/extra1-churchill%20house%20by%20robin%20boyd%20photo%20copyright%20darren%20bradley.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top:200px; 
+    max-width: 100%;
+}
+/*create background image for Homepage*/
+
+.house{
+    
+    background-image: url(../house-images/churchill-house-17.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top:200px; 
+    max-width: 100%;
+    
+}
+/*create background image for The House page*/
+
+
+.history {
+
+    background-image: url(../house-images/churchill-house-4.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top:200px; 
+    max-width: 100%;
+}
+
+.architect {
+
+    background-image: url(../house-images/churchill-house-1.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:middle;
+    padding-top:200px; 
+    max-width: 100%;
+}
+
+
+
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 32%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.column2{
+  float: left;
+  width: 23%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+    
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+
+
+
+.card {
+ box-shadow: 5px 10px 18px #888888;
+}
+/* Add some shadows to create a card effect */
+
+
+
+.container {
+  padding: 0 16px;
+}/* Some left and right padding inside the container */
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}/* Clear floats */
+
+
+.color1{
+    background-color: #333;
+     color: white;
+}
+/*create background color for footer*/
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:650px){
+    
+    h1 {
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 30px;
+    text-align: center;
+    color:	saddlebrown;
+    font-family: 'Lobster', cursive;
+    
+ 
+}/*make font size and margin smaller on the phone devices*/ 
+    
+
+    
+    
+    h2{ 
+        text-align: center;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom:20px;
+        color:	saddlebrown;
+        font-family: 'Lobster', cursive;
+        
+    }/*make font size and margin smaller on the phone devices*/ 
+    
+    h3{
+       text-align: center;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       font-size: 13px;
+       font-family: 'Cardo', serif;
+    }/*make font size and margin smaller on the phone devices*/ 
+    
+
+    
+    h4{
+    font-size: 20px;
+    text-align: center;
+     margin-top: 50px;
+    margin-bottom:20px;
+    color:	saddlebrown;
+     font-family: 'Lobster', cursive;
+    
+    }
+   /*make font size and margin smaller on the phone devices*/
+    
+    h5{
+       text-align: center;
+       margin-top: 30px;
+       padding-top: 20px;
+        padding-bottom: 10px;
+       font-size: 15px;
+       font-family: 'Lobster', cursive;
+    
+    }
+    /*make font size and margin smaller on the phone devices*/
+    
+
+    .text-margin {
+     margin-left: 30px;
+     margin-right: 30px;
+    }
+    /*create left and right margin for paragraphs on phone devices*/
+    
+    .topnav a {
+    float: none;
+    display: block;
+    font-size: 12px;
+        }
+     /*change the horizontal navigation bar into verticial one and make font size smaller when screen size is smaller than 650px */
+    
+    .column {
+    width: 100%;
+    display: block;
+    }
+     /*change image columns from side by side into vertical mode when screen is smaller than 650 */
+    
+    .column2 {
+    width: 100%;
+    display: block;
+    }
+    /*change four wing image columns from side by side into vertical mode when running web on mobile device*/
+    
+    p{
+    font-family: 'Cardo', serif；
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size:12px;
+    line-height: 20px;
+    
+    }
+     /*adjust text font size, margin, and line height based on screen size */   
+    
+    .left-image-box{
+    border: 1px solid #fff;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin:0;
+    }
+    /*create a left image box on the screen size which is smaller than 650px*/
+    
+    .left-image-box-margin{
+       margin-left: 15px;
+       margin-right: 15px;
+        
+    }
+    /*create left and right margin for left image*/
+    
+    .left-image{
+    
+      height: 400px;
+      width: 100%; 
+    }
+    /*define the size for the image in left image box*/
+    
+    .row{
+        margin-left: 30px;
+        margin-right: 30px;
+        
+    }
+    /*create left and right margin for the row of images*/
+    
+}
+/*This is the class to implement responsive design for the mobile size device from 650px to 1024px */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:650px){
+        
+h2{
+    text-align: center;
+    font-size:25px;
+    margin-top: 70px;
+    margin-bottom:30px;
+    color:	saddlebrown;
+    font-family: 'Lobster', cursive;   
+}
+/*make font size and margin larger on the tablet than that on the phone size screen*/    
+    
+h1 {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    color:	saddlebrown;
+    font-family: 'Lobster', cursive;
+    
+    }
+    
+    
+h3{
+       text-align:center;
+       padding-top: 20px;
+       padding-bottom: 5px;
+       font-size: 12px;
+       font-family: 'Cardo', serif;
+    
+}
+/*make font size and padding larger on the tablet size screen*/
+    
+h4{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color:	saddlebrown;
+    font-family: 'Lobster', cursive;
+    
+}
+/*create larger font-size and margin for the headers on tablet devices*/
+    
+h5{
+       text-align: center;
+       margin-top: 50px;
+       padding-top: 40px;
+       padding-bottom: 20px;
+       font-size: 16px;
+       font-family: 'Lobster', cursive;
+    
+}
+/*create appropriate top margin, paddings, and font size for churchill house in footer section when running web on tablet*/
+        
+p{
+
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'Cardo', serif；
+    text-align: justify;
+    
+    }
+/*create appropriate font size, line height, and margin for paragraphs on screen which is larger than 650px*/
+
+    
+    
+.column {
+  object-position: center;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+/* make three information columns align side by side instead of on the top of each other*/
+    
+.column2{
+  object-position: center;
+  width: 21%;
+  margin-bottom: 50px;
+  padding: 0 8px;
+    
+}
+/*display images of four wings side by side when screen size is larger than 650px */
+    
+.text-margin {
+    margin-left: 100px;
+    margin-right: 100px;
+} 
+/*create left and right margin for the paragraphs showing on the tablet device*/
+    
+
+
+.left-image-box-margin{
+    margin-left: 75px;
+    margin-right: 75px;
+        
+        }
+ /*create left and right margin for left image box in The House page*/    
+    
+    
+.left-image-box{
+    border: 1px solid #fff;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin:0;
+    max-width: 55%;
+    
+
+}
+/*create left image box in The House page*/
+    
+.left-image{
+    
+      height: 500px;
+      width: 100%;  
+    
+}    
+/* define the size of left image in the left image box for tablet device */
+    
+.row{
+       object-position: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+}
+/* create left and right margin for the image raws in homepage and the house page*/
+    
+
+}
+/*This is the class to implement responsive design for the tablet size from 650px to 1024px */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px){
+    
+    h1 {
+    font-size: 35px;
+    padding-top: 40px;
+    text-align: center;
+    color: saddlebrown;
+    font-family: 'Lobster', cursive;
+
+    }
+    /*make font size, margin, and padding larger on the desktop size screen*/
+
+    h2{
+    text-align: center;
+    font-size:40px;
+     margin-bottom: 30px;
+     margin-top: 90px;
+     color: saddlebrown;
+    font-family: 'Lobster', cursive;
+    }
+    /*make font size, margin, and padding larger on the desktop size screen*/
+
+
+
+    h3{
+       text-align: center;
+       margin-top: 5px;
+       margin-bottom: auto;
+       font-size: 15px;
+       font-family: 'Cardo', serif
+    }
+    /*make font size, margin, and padding larger on the desktop size screen*/
+
+    h4{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    color:	saddlebrown;
+      font-family: 'Lobster', cursive;   
+    }
+    /*make font size, margin, and padding larger on the desktop size screen*/
+    
+    h5{
+       text-align: center;
+       margin-top: 50px;
+       padding-top: 40px;
+       padding-bottom: 20px;
+       font-size: 25px;
+       font-family: 'Lobster', cursive;
+    
+    }
+    /*make font size, margin, and padding larger on the desktop size screen*/
+
+    p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Cardo', serif；
+    text-align: justify;
+    }
+    /*enlarge font size, line height, and margin when screen size is large enough*/
+
+  .text-margin {
+       margin-left: 250px;
+       margin-right: 250px;
+    }
+    /*create left and right margin for paragraphs on the screen which is larger than 1024px*/
+    
+    
+    .left-image-box-margin{
+         margin-left: 150px;
+       margin-right: 150px;
+        
+    }
+    /*create left and right margin for left image box in The House page*/
+    
+    .column {
+      float: left;
+      width: 30%;
+      margin-bottom: 16px;
+      padding: 0 10px;
+    }
+    
+    /*display three information cards side by side when screen size is larger than 1024px */
+
+    .column2{
+  float: left;
+  width: 22%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+    
+    }  
+/*display images of four wings side by side when screen size is larger than 1024px */
+    
+    
+.left-image-box{
+
+    border: 1px solid #fff;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 20px 20px 0;
+    max-width: 55%;
+    
+}
+/*create left image box in The House page*/
+    
+.left-image{
+    
+      height: 600px;
+      width: 100%; 
+    
+    
+    
+}
+/* define the size of left image in the left image box */
+       
+.row{
+        margin-left: 200px;
+        margin-right: 200px;
+        
+}
+/* create left and right margin for the image raws in homepage and the house page*/
+
+    
+}
+/*This is the class to implement responsive design for the desktop size 1024 and larger*/
+
+
